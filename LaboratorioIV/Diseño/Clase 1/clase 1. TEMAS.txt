@@ -1,0 +1,7 @@
+Guia de Diseño: Clase 1
+- El proceso creativo.
+- 6 conceptos básicos de la composición en diseño.
+- Diseño responsivo.
+- Diferentes metodologias.
+- Tips para la accesibilidad y diseño.
+- Brief y requerimientos técnicos.
