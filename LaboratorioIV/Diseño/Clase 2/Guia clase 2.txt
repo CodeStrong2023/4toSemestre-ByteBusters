@@ -1,0 +1,8 @@
+Guia de Diseño: Clase 2
+- Proceso creativo, diseño UX (Users Experience).
+- Diagrama de flujo.
+- User flow.
+- Wireframes.
+- Diseño de interfaz de usuario (UI) vs UX.
+- Moodboard.
+- Teoria de color.
