@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="assets/bytebuster.png" alt="Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="banner-text">
+            <h1>Venta de Insumos de Construcción</h1>
+            <p>Las mejores marcas al mejor precio</p>
+        </div>
+        <div class="banner-image">
+            <img src="assets/bytebusters_constructora.png" alt="Banner Image">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Nuestros Productos</h2>
+        <div class="card-products-container">
+            <div class="card-products" id="shopContent"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-cards">
+            <!-- Agregar descripciones de servicios como en drywall-sa.com.ar -->
+            <div class="service-card">
+                <h3>Retiro por nuestra sucursal</h3>
+                <p>Retíralo por nuestra sucursal de 08:00hs a 19:00hs, horario corrido, obtené los materiales inmediatament!</p>
+            </div>
+            <div class="service-card">
+                <h3>Envío a domicilio</h3>
+                <p>Envío a domicilio sin cargo. Su pedido llegará en sólo 5 días desde la petición.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contacto</h2>
+        <form action="/submit-form" method="POST">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Cart and Modal -->
+    <div class="cart-btn" id="cart-btn">🛒</div>
+    <span class="cart-counter" id="cart-counter">0</span>
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-container" id="modal-container"></div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 ByteBusters. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/client/js/products.js"></script>
+    <script src="/client/js/index.js"></script>
+    <script src="/client/js/cart.js"></script>
+</body>
+</html>
