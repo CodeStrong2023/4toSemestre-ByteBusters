@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>LA LEYENDA DE AANG: AVATAR</title>
+    <script src="./js/avatar.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/stadia_controller_24dp_531607_FILL0_wght400_GRAD0_opsz24.png">
+</head>
+
+<body>
+    <img src="./images/images.png" alt="Avatar - Título" style="width: 100%; max-width: 500px;"/>
+
+
+    <section id="seleccionar-personaje">
+        <h2>Elige tu Personaje</h2>
+
+        <label for="zuko"><img src="./images/Zuko1.png"></label>
+        <!--Esta etiqueta es para darle un indicador a los usuarios de que están seleccionando-->
+        <input type="radio" name="personaje" id="zuko" />
+        <!-- name es para agrupar todos los imputs y poder seleccionar-->
+
+        <label for="katara"><img src="./images/Katara1.png"></label>
+        <!--El atributo for ayuda a vincular un label con un imput a través del mismo id-->
+        <input type="radio" name="personaje" id="katara" /> <!--Acá van los personajes-->
+
+        <label for="aang"> <img src="./images/Aang1.png"></label>
+        <input type="radio" name="personaje" id="aang" />
+        <!--Le damos un atributo id para saber cual es el valor de cada uno-->
+
+        <label for="toph"> <img src="./images/toph1.png"></label>
+        <input type="radio" name="personaje" id="toph" img src="./images/toph.png"  />
+
+
+        <button id="boton-personaje">Seleccionar</button> <!-- El botón para seleccionar el personaje-->
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h2>Elige tu ataque</h2> <!--Se puede utilizar varias veces-->
+        <p>Tu personaje <span id="personaje-jugador"></span> tiene <span id="vida-jugador">3</span> vidas</p>
+        <!--Pero esto debe ser dinamico, necesitamos que cambie-->
+        <p>El personaje <span id="personaje-enemigo"></span> del enemigo tienen <span id="vida-enemigo">3</span> vidas
+        </p> <!--Con la etiqueta spam vamos a modificar el 3 con JS-->
+        <p>
+            <button id="boton-punio">Puño <img src="./images/puño1.png"></button>
+            <button id="boton-patada">Patada <img src="./images/patada1.png"></button>
+            <button id="boton-barrida">Barrida <img src="./images/barrida1.png"></button>
+        </p>
+    </section>
+
+    <section id="mensajes"> <!--Será un párrafo dinamico-->
+    </section>
+
+    <section id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+
+    <section id="sidebar">
+        <p>REGLAS DEL JUEGO:</h4>
+        <p> 1- PUÑO le gana a BARRIDA pero pierde con PATADA <br>
+            2- PATADA le gana a PUÑO pero pierde con BARRIDA <br>
+            3- BARRIDA le gana a PATADA pero pierde con PUÑO <br></p>
+
+    </div>
+</body>
+
+</html>
