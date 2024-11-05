@@ -6,7 +6,6 @@ function hola(nombre){
             //reject('Hay un error');
         }, 1000); 
     });
-    
 }
 
 function hablar(nombre) {
