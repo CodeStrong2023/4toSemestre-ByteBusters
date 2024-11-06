@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #540804;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    color: #FFD700; 
+    text-shadow: 2px 2px 5px #000000;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+label {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 20px;
+    transform: scale(1.5);
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #EA8C55;
+    color: #540804;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #FF4500;
+    transform: scale(1.1);
+}
+
+section {
+    width: 80%;
+    max-width: 800px;
+    background-color: #C75146;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+#mensajes {
+    font-size: 1.2em;
+    font-style: italic;
+    color: white; 
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    top: 20%;
+    right: 20px;
+    width: 200px;
+    padding: 15px;
+    background-color: #81171B;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h4 {
+    margin-bottom: 10px;
+    color: #FFD700;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.sidebar p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+    }
+
+    .sidebar {
+        width: 90%;
+        top: auto;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
