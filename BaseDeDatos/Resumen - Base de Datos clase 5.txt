@@ -1,0 +1,18 @@
+	Base de datos clase 5
+
+Encapsulamiento en Programación Orientada a Objetos (POO) y Diseño Responsivo.
+
+Encapsulamiento en POO:
+El encapsulamiento es una técnica para restringir el acceso directo a los datos de una clase, protegiendo sus atributos y métodos mediante modificadores de acceso (privado, protegido, público). Permite controlar cómo interactúan otras partes de la aplicación con estos datos, lo que ayuda a mantener la integridad de la información. Se destacan los conceptos de getters y setters, que permiten acceder y modificar los atributos de manera controlada.
+
+Modificadores de Acceso y Niveles de Encapsulamiento:
+Los niveles de encapsulamiento se logran mediante modificadores de acceso. Estos controlan si los atributos o métodos de una clase son visibles y accesibles desde otras clases, proporcionando flexibilidad en la gestión de los datos y mejorando la seguridad y el mantenimiento del código.
+
+Interfaces:
+Las interfaces permiten definir métodos que deben implementarse en las clases que las implementen, promoviendo la consistencia en el comportamiento entre diferentes clases sin importar su implementación específica.
+
+Diseño Responsivo:
+La parte final del documento aborda el diseño responsivo, indicando cómo adaptar un sitio web a distintos dispositivos. Se menciona el uso de unidades relativas y ajustes en el CSS para mejorar la visualización en diferentes tamaños de pantalla.
+
+Actividad Final:
+Finaliza con la instrucción de aplicar encapsulamiento en ejemplos de código y culminar el trabajo de diseño responsivo en un proyecto web, para asegurar su correcta visualización en dispositivos móviles y de escritorio.
