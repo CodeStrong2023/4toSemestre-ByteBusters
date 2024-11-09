@@ -1,0 +1,14 @@
+	Base de datos clase 11
+
+POO y SASS
+Patrones de Comportamiento: Incluye el patrón Observador, que notifica a suscriptores.
+
+Herencia en SASS: Permite reutilizar estilos con para un código más limpio.
+
+Estructura HTML: Se crean secciones de productos con estilos aplicados.
+
+Mixins en SASS: Facilitan la reutilización de estilos y permiten argumentos.
+
+Funciones en SASS: Se pueden realizar operaciones y declarar funciones.
+
+Actividad: Implementar cambios en HTML y SASS utilizando herencia y mixins.

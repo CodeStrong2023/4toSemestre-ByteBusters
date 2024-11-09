@@ -1,0 +1,18 @@
+	Base de datos clase 10
+
+Patrones de Diseño
+Fachada: Simplifica la interfaz de subsistemas complejos, facilitando la integración y mantenimiento del código.
+
+Flyweight: Optimiza el uso de memoria compartiendo estados comunes entre objetos.
+
+Proxy: Controla el acceso a objetos, gestionando inicialización y caché.
+
+Cadena de Responsabilidad: Permite pasar solicitudes a través de manejadores, mejorando la organización del código.
+
+Comando: Encapsula solicitudes como objetos, separando la lógica de negocio de la interfaz.
+
+Iterador: Facilita el recorrido de colecciones sin exponer su estructura interna.
+
+Mediador: Reduce dependencias entre objetos, centralizando la comunicación.
+
+Recuerdo: Permite guardar y restaurar el estado de objetos sin exponer su implementación.
