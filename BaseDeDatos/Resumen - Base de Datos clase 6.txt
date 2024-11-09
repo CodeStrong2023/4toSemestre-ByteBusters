@@ -1,0 +1,20 @@
+	Base de datos clase 6
+
+Principios SOLID de la Programación Orientada a Objetos (POO) y el uso de Sass para mejorar el CSS en proyectos web.
+
+Principios SOLID en POO:
+
+Responsabilidad Única: Cada clase debe tener una sola responsabilidad o motivo de cambio.
+Abierto/Cerrado: Las clases deben estar abiertas a la extensión, pero cerradas a la modificación.
+Sustitución de Liskov: Las subclases deben ser intercambiables con sus superclases sin alterar el comportamiento del programa.
+Segregación de Interfaz: Las clases no deben depender de métodos que no utilizan, promoviendo interfaces específicas.
+Inversión de Dependencia: Las clases de alto nivel no deben depender de clases de bajo nivel, sino de abstracciones.
+
+Sass y Preprocesadores CSS:
+
+Sass: Un preprocesador CSS que permite el uso de variables, mixins y anidación de selectores, facilitando la organización y mantenimiento del código.
+Sintaxis: Diferencia entre .sass (indentada) y .scss (similar a CSS).
+Ventajas: Simplifica la escritura de código responsivo y facilita la reutilización de estilos en CSS.
+Actividad Final:
+
+Se sugiere realizar la instalación de Sass y practicar con sus funcionalidades en Visual Studio Code, sin actividades adicionales para entrega en grupo.

@@ -1,0 +1,25 @@
+	Base de datos clase 7
+
+conceptos fundamentales de bases de datos y el preprocesador SASS.
+Una base de datos es un grupo de información almacenada de manera estratégica dentro de un programa, con una estructura determinada y rutinas optimizadas para gestionar datos masivamente. Surgió de la necesidad de preservar información a lo largo del tiempo.
+Las bases de datos se clasifican en dos tipos principales:
+
+Relacionales: Comparten relaciones predefinidas y usan álgebra relacional. Se ordenan en filas y columnas. Ejemplos: MySQL, SQL Server y Oracle.
+No Relacionales: Contienen datos no estructurados, tienen menor tiempo de respuesta y no tienen restricciones. Ejemplos: MongoDB, elasticsearch, Cassandra y neo4j.
+
+El funcionamiento se basa en Sistemas de Gestión de Base de Datos que están conformados por modelos o tablas con atributos de diferentes tipos de datos guardados como registros.
+En cuanto a los patrones de diseño en POO, se clasifican en:
+
+Patrones Creacionales
+Patrones Estructurales
+Patrones de Comportamiento
+
+El documento profundiza en el Método Fábrica, un patrón creacional que provee una interfaz para crear objetos en una superclase mientras permite a las subclases alterar el tipo de objetos creados.
+Respecto a SASS, es un preprocesador que incluye características adicionales como variables y mixins para facilitar la escritura de CSS. Existen diferentes tipos de preprocesadores como Stylus (basado en JavaScript) y LESS.
+La anatomía de un proyecto SASS requiere:
+
+Input File: archivo de entrada con extensión .scss
+Output File: archivo de salida con los estilos CSS finales
+Comandos de ejecución y compilación
+
+Para trabajar con SASS se recomienda usar Visual Studio Code con extensiones como Live Sass Compiler y Live Server.
