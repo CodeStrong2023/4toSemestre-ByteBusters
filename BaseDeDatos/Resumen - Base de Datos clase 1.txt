@@ -1,0 +1,14 @@
+	Base de Datos clase 1
+
+1. Diseño Responsivo:
+
+Los primeros sitios web estaban diseñados para pantallas de computadora y tenían un tamaño fijo, lo que dificultaba su acceso desde dispositivos móviles. Para resolver este problema, los navegadores redujeron las páginas web para que se ajustaran a diferentes pantallas.
+Se explica cómo crear una sección de filas y columnas en HTML y CSS para hacer un sitio web responsivo. Esto incluye la creación de un archivo index.html, un archivo de columnas en HTML y CSS, y el uso de la etiqueta viewport. Se detallan clases CSS como .contenedor, .fila, y .col-12 para estructurar el diseño.
+
+2. Programación Orientada a Objetos (POO):
+
+La POO es un paradigma que organiza el código en "objetos" y facilita la resolución de problemas en informática. Los objetos representan cosas del mundo real con atributos (datos) y métodos (funcionalidades).
+Se destacan las ventajas de la POO, como su utilidad en trabajo en equipo y la capacidad de añadir funcionalidades de manera organizada.
+Se introduce el concepto de "clase" como un molde para crear objetos, con tres partes clave: nombre de la clase, atributos (variables) y métodos (funciones).
+Ejemplos en JavaScript y Python muestran cómo implementar clases y métodos en código.
+Actividad Grupal: Los estudiantes deben crear un sitio web responsivo, estructurando el código en HTML y CSS, y enviar capturas del trabajo realizado.
