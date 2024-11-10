@@ -1,0 +1,18 @@
+	Base de datos clase 9
+
+Patrones de Diseño
+Patrones Creacionales:
+
+Prototipo: Clona objetos mediante una interfaz común, permitiendo copiar campos, incluso privados.
+
+Singleton: Asegura una única instancia de una clase, centralizando el acceso y control de recursos.
+
+Patrones Estructurales:
+
+Adapter: Permite que interfaces incompatibles trabajen juntas.
+
+Bridge: Separa abstracción de implementación, evitando la explosión de clases.
+
+Composite: Permite tratar estructuras de árbol como objetos individuales.
+
+Decorator: Añade funcionalidades a objetos sin modificar su estructura original.

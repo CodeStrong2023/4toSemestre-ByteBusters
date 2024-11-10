@@ -1,0 +1,16 @@
+	Base de datos clase 4
+
+Conceptos de Polimorfismo y Diseño Responsivo en programación orientada a objetos (POO) y diseño web.
+
+Polimorfismo en POO:
+El polimorfismo permite que objetos de diferentes subclases modifiquen el comportamiento de métodos heredados de una clase base, optimizando y reduciendo la cantidad de código. En el ejemplo, la clase "Forma" con el método dibujar() permite que las subclases "Círculo", "Rectángulo" y "Triángulo" redefinan dicho método según sus características. Esto logra que cada forma se dibuje acorde a su tipo, manteniendo el objetivo general del método.
+
+Beneficios del Polimorfismo:
+
+Flexibilidad: permite tratar objetos de distintas clases de manera uniforme.
+Simplificación: facilita el diseño a través de abstracción y métodos comunes.
+Escalabilidad: facilita la inclusión de nuevas clases y comportamientos.
+
+Diseño Responsivo: Para adaptar el diseño de una web a diferentes pantallas, se sugiere utilizar porcentajes en lugar de píxeles y emplear puntos de quiebre (media queries) en CSS. Se explican las unidades de medida como PX, EM, REM y Viewport Units, recomendando el uso de porcentajes para asegurar que los elementos se ajusten al tamaño de pantalla. Se ejemplifica cómo el diseño del New York Times cambia entre dispositivos.
+
+Práctica y Actividades: Se proponen actividades para reforzar el polimorfismo y aplicar cambios en el diseño responsivo de un sitio web, adaptando el diseño a pantallas medianas y móviles mediante ajustes en columnas y estilos de botones y navegación.

@@ -1,0 +1,35 @@
+	Base de datos clase 8
+
+Bases de Datos (específicamente entidades y relaciones) y continuación de Patrones de Diseño POO, además de incluir información sobre la estructura de hojas de estilo SASS.
+En cuanto a Bases de Datos:
+Las entidades se nombran en plural y se dividen en dos tipos:
+
+Entidades fuertes: pueden existir por sí solas
+Entidades débiles: dependen de una entidad fuerte y se subdividen en débiles por identidad y débiles por existencia
+
+Las relaciones unen diferentes entidades y se representan con rombos. La cardinalidad define la relación numérica entre entidades:
+
+1 a 1: relación única entre dos entidades
+0 a 1: relación opcional única
+1 a N: una entidad se relaciona con muchas
+0 a N: relación opcional con muchas
+N a N: relación muchos a muchos
+
+Sobre Patrones de Diseño:
+Se profundiza en la Fábrica Abstracta y el patrón Builder (Constructor). La Fábrica Abstracta permite crear familias de objetos relacionados sin especificar sus clases concretas. El patrón Builder ayuda a construir objetos complejos paso a paso, evitando constructores con demasiados parámetros.
+Respecto a SASS:
+La estructura de hojas de estilo incluye diferentes tipos de declaraciones:
+
+Top-level Statements: imports, definición de mixins, funciones y módulos
+Universal Statements: variables, estructuras de control y declaraciones CSS
+
+Las variables en SASS:
+
+Se declaran con el símbolo $
+Pueden ser locales (dentro de un bloque) o globales
+Tienen scope específico
+Existe el concepto de shadowing (variables locales y globales pueden tener los mismos nombres)
+Se puede usar !default flag para asignar valores por defecto
+!global flag permite modificar variables globales desde un scope local
+
+Los selectores en SASS pueden ser de clase, ID, tipo o atributo, y permiten aplicar estilos a elementos específicos.

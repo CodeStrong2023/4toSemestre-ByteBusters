@@ -1,0 +1,14 @@
+	Base de Datos clase 2
+
+1. Programación Orientada a Objetos (POO):
+
+Introduce los conceptos básicos de POO, como objetos, instancias y los pilares fundamentales de este paradigma: abstracción, encapsulamiento, herencia y polimorfismo.
+Explica que los objetos representan entidades con atributos y métodos, y que las clases actúan como moldes para crear estas instancias. Se dan ejemplos prácticos para ilustrar cómo funcionan las instancias y la importancia de estos principios.
+
+2. Diseño Responsivo:
+
+Continúa el tema de diseño responsivo comenzado en la clase anterior. Explica la creación de una estructura de filas y columnas dentro de un contenedor para que el sitio se adapte a diferentes dispositivos.
+Detalla cómo dividir el HTML en secciones como header, nav, section y footer, y cómo organizar las columnas usando CSS con clases específicas (col-log-2, col-log-8, etc.).
+También describe ajustes de estilo en CSS, como el uso de box-sizing: border-box y propiedades como float, clear, y display: table en las filas y columnas para lograr un diseño fluido y adaptable.
+
+Actividad: Se plantea una tarea en la que los estudiantes deben implementar lo aprendido sobre filas y columnas en un diseño responsivo usando HTML y CSS, y compartir el resultado.

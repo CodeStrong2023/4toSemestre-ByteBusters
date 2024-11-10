@@ -1,0 +1,14 @@
+	Base de datos clase 3
+
+1. Herencia en POO:
+
+La herencia permite que una clase hija adquiera los atributos y métodos de una clase padre. En el ejemplo, la clase padre "Vehículo" tiene atributos como marca, modelo, velocidad y año, y métodos como darVelocidad() y reducirVelocidad(). Las clases hijas, "Motocicleta" y "Autobús", heredan estos atributos y métodos, pero pueden tener características propias.
+La herencia facilita la reutilización de código y la organización jerárquica de clases, permitiendo una estructura clara y mantenible.
+
+2. Diseño Responsivo:
+
+Se explica cómo usar media queries en CSS para adaptar el diseño de un sitio web a diferentes tamaños de pantalla, estableciendo puntos de quiebre para pantallas grandes, medianas y dispositivos móviles.
+Incluye ejemplos de media queries, como @media(min-width:1200px), y la implementación de ajustes específicos para columnas en la hoja de estilo.
+Además, se menciona la incorporación de estilos adicionales para elementos como el logo y los botones, optimizando la visualización en el diseño final del sitio.
+
+Actividad: Se sugiere realizar un ejercicio de diagramas UML para reforzar el concepto de herencia en POO. Para el diseño responsivo, se invita a seguir una guía en línea y aplicar los cambios necesarios en HTML y CSS para completar el sitio web responsivo.
